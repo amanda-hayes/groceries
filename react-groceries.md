@@ -24,9 +24,9 @@ Make your Grocery List look like this: https://codepen.io/madeline10302/pen/RwRO
 
 ## Getting Started
 
-1. In tonight's HW directory, run `lets-code` and name your app `react-groceries`
+1. In tonight's HW directory, run `npx create-react-app react-groceries` and name your app `react-groceries`
 2. `cd react_groceries`
-4. `npm run dev` to start your server
+4. `yarn start` to start your server
 5. `git add -A` and `git commit -m "initial commit"`
 
 
