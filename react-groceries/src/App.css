@@ -1,0 +1,19 @@
+.Groceries {
+  text-align: left;
+  padding: 50px;
+}
+
+body {
+  background-image: url("./notebook-paper.png");
+  background-repeat: repeat-y;
+}
+
+.Groceries-link {
+  color: #61dafb;
+}
+
+.item-name {
+  font-size: 1.5rem;
+}
+
+
