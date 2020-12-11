@@ -13,7 +13,10 @@ const Grocery = (props) => {
                     <p>{brand}</p>
                     <p>{price}</p>
                     <p>{quantity}</p>
-                    <p>{GroceryItem.isPurchased}</p>  
+                    {function checkPurchased(isPurchased) {
+                    return (isPurchased ? 'true' : 'false');}}
+                    <p>{isPurchased}
+                    </p>  
             </div>
     )
 }

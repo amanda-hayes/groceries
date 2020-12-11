@@ -71,9 +71,14 @@ function App() {
         <br />
         <br />
           <button>Remove Purchased</button>
-        
+          
        {groceries.map((currentGroceries, i) => {
-         return <Grocery data={currentGroceries} />
+         if (!currentGroceries.isPurchased) {
+          return <Grocery data={currentGroceries} />
+         } else {
+           return  <p>Purchased</p>
+         }
+         
        })}
     </div>
     </>
