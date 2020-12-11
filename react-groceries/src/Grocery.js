@@ -6,17 +6,9 @@ const Grocery = (props) => {
     return (
             <div>
                 <GroceryItem item={item} />
-                <label>
-                 <input type="checkbox" checked={GroceryItem.isPurchased} /> 
-                   
-                </label>
                     <p>{brand}</p>
                     <p>{price}</p>
                     <p>{quantity}</p>
-                    {function checkPurchased(isPurchased) {
-                    return (isPurchased ? 'true' : 'false');}}
-                    <p>{isPurchased}
-                    </p>  
             </div>
     )
 }

@@ -76,7 +76,7 @@ function App() {
          if (!currentGroceries.isPurchased) {
           return <Grocery data={currentGroceries} />
          } else {
-           return  <p>Purchased</p>
+           return  <p>----Item Purchased----</p>
          }
          
        })}
